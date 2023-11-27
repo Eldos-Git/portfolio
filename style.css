@@ -194,6 +194,16 @@ nav ul li a:actie {
 	float:left;
 	}
 
+.thumbnail-unit-11 {
+	width:100%;
+	padding-top:60%;
+	position:relative;
+	background: url("https://img.youtube.com/vi/IczuGhmpTZM/0.jpg") no-repeat center center;
+ 	background-size: cover;
+	display:block;
+	float:left;
+	}
+
 .thumbnail-unit-12 {
 	width:100%;
 	padding-top:60%;
@@ -203,6 +213,17 @@ nav ul li a:actie {
 	display:block;
 	float:left;
 	}
+
+.thumbnail-unit-13 {
+	width:100%;
+	padding-top:60%;
+	position:relative;
+	background: url("https://img.youtube.com/vi/i7oOFo4ZB3Q/0.jpg") no-repeat center center;
+ 	background-size: cover;
+	display:block;
+	float:left;
+	}
+
 
 .thumbnail-unit-16 {
 	width:100%;
@@ -463,10 +484,29 @@ a:hover.back-to-top{
 	float:left;
 	}
 
+.thumbnail-unit-11 {
+	width:25%;
+	padding-top:20%;
+	background: url("https://img.youtube.com/vi/IczuGhmpTZM/0.jpg") no-repeat center center;
+ 	background-size: cover;
+	display:block;
+	float:left;
+	}
+
+
 .thumbnail-unit-12 {
 	width:25%;
 	padding-top:20%;
 	background: url("works/11.png") no-repeat center center;
+ 	background-size: cover;
+	display:block;
+	float:left;
+	}
+
+.thumbnail-unit-13 {
+	width:25%;
+	padding-top:20%;
+	background: url("https://img.youtube.com/vi/i7oOFo4ZB3Q/0.jpg") no-repeat center center;
  	background-size: cover;
 	display:block;
 	float:left;
