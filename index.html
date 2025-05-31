@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="script.js"></script>
+<script>
+this.state.instance.container.fitToViewport(); 
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+<!--Nav Bar-->
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background:#000" id=navbar>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="navbar-header col-md-offset-2">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+              </button>
+
+        <a class="navbar-brand" href="#" style="font-family: 'Futuristic Font', cursive; font-size: 20pt;">Eldos Zheksheev</a>
+      </div>
+      <div class="col-md-offset-7 collapse navbar-collapse" style="font-size:14pt;" id="mynavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#welcome-section">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">works</a></li>
+          <li><a href="#contact">contact me</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</nav>
+
+<!--First Page-->
+<section class="hero" id="welcome-section">
+  <div class="intro">
+  </div>
+</section>
+<br>
+<div class="container-fluid" id="about">
+  <div class="row">
+    <div>
+      <center>
+        <img class="prf-img img-responsive img-circle" src="profile1.jpg"></center>
+    </div>
+  </div>
+  <div class="row">
+    <center>
+      <h1 class="titre">CGI artist and VFX artist</h1>
+    </center>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-3 col-xs-10 col-xs-offset-1">
+      <p class="def-txt">I was born on January 10, 2005.<br> </p>
+✔ I graduated from the Toktogul Satylganov Boarding Lyceum in Karakol, Kyrgyzstan. <br> </p>
+✔ I am currently studying Business and IT at Kyrgyz State Technical University.  <br> </p>
+I’ve been passionate about design and visual effects since I was 12. Now I have over 9 years of experience in CGI, 3D, and VFX.<br> </p>
+✔ I worked for a commercial studio for one year, creating visual effects for advertisements and music videos.  <br> </p>
+✔ Currently, I am working at **MOV.FX Studio**, focusing on visual effects for films and trailers. <br> </p>
+My main expertise includes realistic simulations, 3D animation, and compositing. I aim to create visuals that evoke emotion and enhance the story.<br> </p>
+<br> </p>
+I work with the following software:  
+**Blender, Fusion Studio, Nuke, EmberGen, Liquigen, After Effects, Premiere Pro.**
+<br> </p>
+Each project is a new chance to push the limits and leave a strong visual impact.<br> </p>
+
+
+    </div>
+  </div>
+</div>
+<center>
+      <h1 class="titre">Films I've contributed to as a VFX CGI Artist:</h1>
+    </center>
+  </div>
+  <div class="thumb-container project-tile">
+    <a href="https://youtu.be/53q0J91yDoQ?si=kFMcMI0I9cOqlpml" class="thumbnail-unit-1" target="_blank"></a>
+    <a href="https://youtu.be/chDb4P-nZww?si=-CR1b_pGwTeIolGJ" class="thumbnail-unit-2" target="_blank"></a>
+    <a href="https://youtu.be/YyyoQjTd8QI?si=2YeouMTz0GhDg1CJ" class="thumbnail-unit-3" target="_blank"></a>
+    <a href="https://youtu.be/bdARPlqMWLM?si=vOchUW5zIrhUdu4J" class="thumbnail-unit-4" target="_blank"></a>
+    <a href="https://youtu.be/v0bsxPMiKTI?si=OkUdd-mYu-kGStR4" class="thumbnail-unit-5" target="_blank"></a>
+    <a href="https://youtu.be/bNrLy-7TM9o?si=UURnwwr937PdWkYH" class="thumbnail-unit-6" target="_blank"></a>
+    <a href="https://youtu.be/ubXG3ELx0Vs?si=t92rEoOfYzexHCnG" class="thumbnail-unit-7" target="_blank"></a>
+  </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="container-fluid">
+  <div class="row justify-content-center">
+  <div class="col-lg-12 text-center">
+    <h1 class="titre">Music video I've contributed to as a VFX CGI Artist:</h1>
+  </div>
+</div>
+  </div>
+  <div class="thumb-container project-tile">
+    <a href="https://youtu.be/_vNdcKFf0MQ?si=1c34X_LFVQQKYeRv" class="thumbnail-unit-8" target="_blank"></a>
+    <a href="https://youtu.be/Y2UB0oj_YnA?si=I2t0zG70J4xnyFtl" class="thumbnail-unit-9" target="_blank"></a>
+  </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<!--Progress-bar-->
+<div class="container-fluid">
+  <div class="row justify-content-center">
+  <div class="col-lg-12 text-center">
+    <h1 class="titre">SKILLS</h1>
+  </div>
+</div>
+  <div class="row">
+    <div class="col-lg-3 col-lg-offset-3">
+      <h3>Photoshop</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%;">
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <h3>Premiere Pro</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-lg-offset-3">
+      <h3>Blender</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:95%;">
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <h3>After Effects</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-lg-offset-3">
+      <h3>Fusion Studio</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:85%;">
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <h3>The Foundry Nuke</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:40%;">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+<br>
+<br>
+<br>
+<br>
+<!--Works-->
+<div class="container-fluid" id="projects">
+  <div class="row justify-content-center">
+  <div class="col-lg-12 text-center">
+    <h1 class="titre">Breakdowns and Showreels:</h1>
+  </div>
+</div>
+  </div>
+  <div class="thumb-container project-tile">
+    <a href="https://youtu.be/3yo4iHW4JjQ?si=A0t82anEWy7ropDt" class="thumbnail-unit-10" target="_blank"></a>
+    <a href="https://youtu.be/dItpLSIoCQo?si=BwLXhuRPmrzjiADl" class="thumbnail-unit-11" target="_blank"></a>
+    <a href="https://https://youtu.be/1SgkNiMX-40?si=vSoTNapk9G2-5pJI" class="thumbnail-unit-12" target="_blank"></a>
+    <a href="https://https://youtu.be/VdskwKxm9Xc?si=a0FLJoewKzYHVkK9" class="thumbnail-unit-13" target="_blank"></a>
+    <a href="https://youtu.be/8NLFj5VT2F0?si=YSdg2mtMaBT1EzBh" class="thumbnail-unit-14" target="_blank"></a>
+  </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<!--contact-->
+<div class="container-fluid" id="contact">
+  <div class="row justify-content-center">
+  <div class="col-lg-12 text-center">
+    <h1 class="titre">CONTACT</h1>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-xs-4">
+      <div class="icon-container">
+        <a href="https:t.me/eldosdesignkg" target="_blank">
+          <center>
+            <img src="telegram.webp">
+          </center>
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-xs-4">
+          <div class="icon-container ">
+            <a href="https://wa.me/996501180104" target="_blank ">
+            <center>
+              <img src="WhatsApp.svg">
+                </center>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-4">
+      <div class="icon-container">
+        <a href="https://www.youtube.com/@eldos_VFX" target="_blank">
+          <center>
+            <img src="youtube.png">
+          </center>
+        </a>
+      </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<a href="#welcome-section " class="back-to-top "></a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
